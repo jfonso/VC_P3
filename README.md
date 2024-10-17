@@ -35,7 +35,7 @@ Para clasificar los contornos obtenidos se utilizaron las siguientes caracterís
 - Relación del ancho y el alto del contenedor
 - Definido el centroide, relación entre las distancias menor y mayor al contorno
 
-Experimentando, se observó que los fragmentos con frecuencia poseían valores superiores de las 1ª, 2ª y 5ª características e inferiores de las otras en comparación a las bolitas y el alquitrán. Distinguir entre las bolitas y el alquitrán utilizando estás características fue más complicado ya que había solapamiento en los valores obtenidos. Para distinguirlos se hizo utilizo la característica de color de media RGB, asumiendo que los contornos candidatos a bolitas más negrizcos son en realidad alquitrán.
+Experimentando, se observó que los fragmentos con frecuencia poseían valores superiores de las 1ª, 2ª y 5ª características e inferiores de las otras en comparación a las bolitas y el alquitrán. Distinguir entre las bolitas y el alquitrán utilizando estás características fue más complicado ya que había solapamiento en los valores obtenidos. Para distinguirlos se hizo utilizo la característica de color de media RGB[^2], asumiendo que los contornos candidatos a bolitas más negrizcos son en realidad alquitrán.
 
 Los resultados obtenidos se muestran a continuación. Cabe notar que debido a imperfecciones en la segmentación existe una pequeña diferencia entre la cantidad esperada de elementos y el detectado (1 en las bolitas, 2 en el alquitrán y 5 en los fragmentos).
 
