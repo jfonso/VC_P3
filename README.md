@@ -53,7 +53,7 @@ Los resultados obtenidos se muestran a continuación. Cabe notar que debido a im
 
 ![title](resultados/tarea-2f.png)
 
-Como se puede observar en las imágenes, la exactitud del clasificador realizado es inferior en la imagen con solo fragmentos que en la de solo bolitas y solo alquitrán. Esto se puede deber por una parte a defectos en el clasificador y por otra parte a que la segmentación es más pobre en esta imagen ya que algunos fragmentos no contrastan lo suficiente con el fondo, lo que dificulta la clasificación.
+Como se puede observar en las imágenes, la exactitud del clasificador realizado es inferior en la imagen con solo fragmentos que en la de solo bolitas y solo alquitrán. Esto se puede deber por una parte a defectos en el clasificador y por otra parte a que la segmentación es más pobre en esta imagen ya que algunos fragmentos no contrastan lo suficiente con el fondo, lo que dificulta la clasificación. 
 
 ## Autor
 Javier A. Alfonso Quintana
