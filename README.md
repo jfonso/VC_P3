@@ -12,13 +12,13 @@ La primera fase consiste en obtener la imagen con las monedas, para ello se capt
 
 La segunda fase consiste en seleccionar una moneda de referencia e indicar su valor. Para ello detecta las pulsaciones del botón izquierdo del ratón y si coincide con una posición dentro de los círculos detectados muestra una imagen de referencia y donde se detecta de nuevo las pulsaciones del botón izquierdo del ratón para saber a cuál se corresponde. Con esta información se obtiene la relación entre los píxeles de la imagen y el tamaño de las monedas en la imagen.
 
-![title](resultados/tarea-1b.png?v=2)
+![title](resultados/tarea-1b.png)
 
-![title](resultados/tarea-1c.png?v=2)
+![title](resultados/tarea-1c.png)
 
 En la tercera y última fase se asocian los círculos encontrados con su valor, buscando el más cercano a su tamaño dentro de la clasificación en base al tono de color sin que la diferencia se pase 1mm. Finalmente se muestra el resultado de la suma.
 
-![title](resultados/tarea-1d.png?v=2)
+![title](resultados/tarea-1d.png)
 
 Respecto a los problemas observados, la detección puede verse afectada dependiendo del color y textura de la superficie en la que se encuentra, la presencia de objetos extraños y sombras, así como de la iluminación.
 
@@ -53,7 +53,7 @@ Los resultados obtenidos se muestran a continuación. Cabe notar que debido a im
 
 ![title](resultados/tarea-2f.png)
 
-Como se puede observar en las imágenes, la exactitud del clasificador realizado es inferior en la imagen con solo fragmentos que en la de solo bolitas y solo alquitrán. Esto se puede deber por una parte a defectos en el clasificador y por otra parte a que la segmentación es más pobre en esta imagen ya que algunos fragmentos no contrastan lo suficiente con el fondo, lo que dificulta la clasificación. 
+Como se puede observar en las imágenes, la exactitud del clasificador realizado es inferior en la imagen con solo fragmentos que en la de solo bolitas y solo alquitrán. Esto se puede deber por una parte a defectos en el clasificador y por otra parte a que la segmentación es más pobre en esta imagen ya que algunos fragmentos no contrastan lo suficiente con el fondo, lo que dificulta la clasificación.
 
 ## Autor
 Javier A. Alfonso Quintana
